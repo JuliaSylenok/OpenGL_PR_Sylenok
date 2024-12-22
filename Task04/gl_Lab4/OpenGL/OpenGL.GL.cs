@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace gl_Lab1
+namespace gl_Lab4
 {
     public partial class OpenGL
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace gl_Lab1
+namespace gl_Lab4
 {
     internal static class Program
     {

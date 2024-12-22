@@ -1,11 +1,7 @@
 ﻿
-using System.ComponentModel;
-using System.Drawing;
-
-namespace gl_Lab1
+namespace gl_Lab4
 {
-    [ToolboxItem(true), ToolboxBitmap(typeof(RenderControl), "RenderControl.bmp"), DefaultEvent("")]
-    partial class RenderControl
+    partial class OpenGL
     {
         /// <summary> 
         /// Required designer variable.
@@ -33,19 +29,16 @@ namespace gl_Lab1
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
+            this.SuspendLayout();
             // 
-            // RenderControl
+            // OpenGL
             // 
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            BackColor = Color.SlateGray;
-            Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            ForeColor = Color.White;
-            Name = "RenderControl";
-            Size = new Size(480, 300);
-            TextCodePage = 1251;
-            Render += RenderControl_Render;
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "OpenGL";
+            this.Size = new System.Drawing.Size(158, 147);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
