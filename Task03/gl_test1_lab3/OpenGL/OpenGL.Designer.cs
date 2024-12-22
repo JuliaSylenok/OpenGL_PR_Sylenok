@@ -1,5 +1,5 @@
 ﻿
-namespace gl_Lab1
+namespace gl_test1_lab3
 {
     partial class OpenGL
     {

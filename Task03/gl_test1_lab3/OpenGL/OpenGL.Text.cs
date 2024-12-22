@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace gl_Lab1
+namespace gl_test1_lab3
 {
     partial class OpenGL
     {

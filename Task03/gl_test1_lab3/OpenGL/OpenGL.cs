@@ -7,10 +7,10 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace gl_Lab1
+namespace gl_test1_lab3
 {
     [ToolboxItem(false), DefaultEvent("Render")]
-    public partial class OpenGL : UserControl
+    public partial class  OpenGL : UserControl
     {
         private IntPtr hdc = IntPtr.Zero;
         private IntPtr hrc = IntPtr.Zero;
@@ -67,7 +67,7 @@ namespace gl_Lab1
             HandleCreated += InitializeOpenGL;
             HandleDestroyed += FinalizeOpenGL;
 
-            //if (Program.DesignMode)
+           // if (Program.DesignMode)
                 FontChanged += OnFontChange;
         }
 

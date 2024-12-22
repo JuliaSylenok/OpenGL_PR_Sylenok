@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Drawing;
 
-namespace gl_Lab1
+namespace gl_test1_lab3
 {
     [ToolboxItem(true), ToolboxBitmap(typeof(RenderControl), "RenderControl.bmp"), DefaultEvent("")]
     partial class RenderControl
@@ -39,12 +39,12 @@ namespace gl_Lab1
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             BackColor = Color.SlateGray;
-            Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Font = new Font("Times New Roman", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = Color.White;
             Name = "RenderControl";
             Size = new Size(480, 300);
             TextCodePage = 1251;
-            Render += RenderControl_Render;
+            Render += OnRender;
             ResumeLayout(false);
         }
 
