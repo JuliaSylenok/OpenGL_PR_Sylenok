@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "glScrSaver1": {
+      "commandName": "Project",
+      "commandLineArgs": "/s"
+    }
+  }
+}
